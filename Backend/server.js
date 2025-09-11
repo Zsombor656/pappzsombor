@@ -23,14 +23,14 @@ const db = mysql.createConnection({
         console.log(`Szerver fut a ${port}-as porton`);
       });
 // Régiók listázása
-app.get("/regiok", (req, res) => {
-  const sql = "SELECT * FROM `regiok` ";
+app.get("/tipus", (req, res) => {
+  const sql = "SELECT * FROM `regiok`where regio_tipusa='Régio' ";
   db.query(sql, (err, result) => {
   if (err) return res.json(err);
   return res.json(result)
   })
  })
- app.get("/barmi", (req, res) => {
+ app.get("/Rid", (req, res) => {
   const sql = "SELECT * FROM `regiok` where Rid=4";
   db.query(sql, (err, result) => {
   if (err) return res.json(err);
@@ -38,7 +38,7 @@ app.get("/regiok", (req, res) => {
   })
  })
  
- app.get("/barmi", (req, res) => {
+ app.get("/regionev", (req, res) => {
   const sql = "SELECT * FROM `regiok` where regionev Like'B%'";
   db.query(sql, (err, result) => {
   if (err) return res.json(err);
@@ -49,6 +49,14 @@ app.get("/regiok", (req, res) => {
  app.get("/barmi", (req, res) => {
   const sql = "SELECT * FROM `regiok` where regio_tipusa='főváros'";
   db.query(sql, (err, result) => {
+  if (err) return res.json(err);
+  return res.json(result)
+  })
+ })
+
+ app.delete("/torles/:id", (req, res) => {
+  const sql = "DELETE FROM `regiok` WHERE Rid = ?";
+  db.query(sql, [req.params.id], (err, result) => {
   if (err) return res.json(err);
   return res.json(result)
   })
