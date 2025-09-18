@@ -1,13 +1,18 @@
+import { BrowserRouter,Route, Routes } from "react-router-dom"
+import Home from './Home'
+import Regiok from './Regiok'
+
 function App() {
-
-
   return (
-    <>
       <div>
-        <h1>Ez az oldal az APP modult jeleníti meg</h1>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+           <Route path="/Regiok" element={<Regiok/>}/>
+          </Routes>
+        </BrowserRouter>
       </div>
-      
-    </>
+    
   )
 }
 
