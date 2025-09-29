@@ -1,28 +1,37 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-function UserRow({ user, onDeleteUser, onUpdateUser }) {
-    const [isEditing, setIsEditing] = useState(false);
-    const [editedName, setEditedName] = useState(user.name);
-    const [editedEmail, setEditedEmail] = useState(user.email);
-
-    const handleSave = () => {
-        onUpdateUser(user.id, editedName, editedEmail);
-        setIsEditing(false);
-    };
-
-    const handleCancel = () => {
-        setIsEditing(false);
-        setEditedName(user.name);
-        setEditedEmail(user.email);
-    };
+function UserRow({
+    user,
+    editingId,
+    editedName,
+    editedEmail,
+    onDeleteUser,
+    onEditStart,
+    onUpdateUser,
+    setEditedName,
+    setEditedEmail,
+}) {
+    const isEditing = editingId === user.id;
 
     return (
         <tr>
             <td>{user.id}</td>
             {isEditing ? (
                 <>
-                    <td><input value={editedName} onChange={e => setEditedName(e.target.value)} /></td>
-                    <td><input value={editedEmail} onChange={e => setEditedEmail(e.target.value)} /></td>
+                    <td>
+                        <input
+                            type="text"
+                            value={editedName}
+                            onChange={(e) => setEditedName(e.target.value)}
+                        />
+                    </td>
+                    <td>
+                        <input
+                            type="email"
+                            value={editedEmail}
+                            onChange={(e) => setEditedEmail(e.target.value)}
+                        />
+                    </td>
                 </>
             ) : (
                 <>
@@ -34,12 +43,12 @@ function UserRow({ user, onDeleteUser, onUpdateUser }) {
             <td>
                 {isEditing ? (
                     <>
-                        <button onClick={handleSave}>Mentés</button>
-                        <button onClick={handleCancel}>Mégse</button>
+                        <button onClick={() => onUpdateUser(user.id, editedName, editedEmail)}>Mentés</button>
+                        <button onClick={() => setEditedName(user.name) || setEditedEmail(user.email)}>Mégse</button>
                     </>
                 ) : (
                     <>
-                        <button onClick={() => setIsEditing(true)}>Szerkesztés</button>
+                        <button onClick={() => onEditStart(user)}>Szerkesztés</button>
                         <button onClick={() => onDeleteUser(user.id)}>Törlés</button>
                     </>
                 )}

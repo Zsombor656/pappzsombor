@@ -1,38 +1,52 @@
+
 import React from 'react';
 import UserRow from './UserRow';
 
-function UserTable({ users, onDeleteUser, onUpdateUser }) {
+function UserTable({
+    users,
+    editingId,
+    editedName,
+    editedEmail,
+    onDeleteUser,
+    onEditStart,
+    onUpdateUser,
+    setEditedName,
+    setEditedEmail,
+}) {
     return (
-        <div>
-            <h2>Felhasználók Listája</h2>
-            <table style={{ width: '100%', borderCollapse: 'collapse' }}>
-                <thead>
+        <table className="user-table">
+            <thead>
+                <tr>
+                    <th>#ID</th>
+                    <th>Név</th>
+                    <th>Email</th>
+                    <th>Regisztráció</th>
+                    <th>Műveletek</th>
+                </tr>
+            </thead>
+            <tbody>
+                {users.length > 0 ? (
+                    users.map((user) => (
+                        <UserRow
+                            key={user.id}
+                            user={user}
+                            editingId={editingId}
+                            editedName={editedName}
+                            editedEmail={editedEmail}
+                            onDeleteUser={onDeleteUser}
+                            onEditStart={onEditStart}
+                            onUpdateUser={onUpdateUser}
+                            setEditedName={setEditedName}
+                            setEditedEmail={setEditedEmail}
+                        />
+                    ))
+                ) : (
                     <tr>
-                        <th>#ID</th>
-                        <th>Név</th>
-                        <th>Email</th>
-                        <th>Regisztráció</th>
-                        <th>Műveletek</th>
+                        <td colSpan="5">Nincsenek felhasználók.</td>
                     </tr>
-                </thead>
-                <tbody>
-                    {users.length > 0 ? (
-                        users.map(user => (
-                            <UserRow 
-                                key={user.id} 
-                                user={user} 
-                                onDeleteUser={onDeleteUser} 
-                                onUpdateUser={onUpdateUser} 
-                            />
-                        ))
-                    ) : (
-                        <tr>
-                            <td colSpan="5" style={{ textAlign: 'center' }}>Nincsenek felhasználók az adatbázisban.</td>
-                        </tr>
-                    )}
-                </tbody>
-            </table>
-        </div>
+                )}
+            </tbody>
+        </table>
     );
 }
 
