@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import '../App.css';
 import UserForm from './UserForm';
 import UserTable from './UserTable';
-import UserRow from './UserRow';
+import NavBar from './NavBar';
 
 function App() {
     const [users, setUsers] = useState([]);
@@ -66,12 +67,19 @@ function App() {
         }
     };
 
-    return (
-        <div className="App">
+    const LoginPage = () => (
+        <div className="login-page">
+            <h1>Felhasználó hozzáadása</h1>
+            <UserForm onAddUser={handleAddUser} />
+        </div>
+    );
+
+    const UsersPage = () => (
+        <div className="users-page">
             <h1>Felhasználókezelő (Full-Stack CRUD)</h1>
             {loading && <p>Adatok betöltése...</p>}
             {error && <p className="error">{error}</p>}
-            <UserForm onAddUser={handleAddUser} />
+            
             <UserTable
                 users={users}
                 editingId={editingId}
@@ -85,5 +93,16 @@ function App() {
             />
         </div>
     );
+
+    return (
+        <Router>
+            <NavBar />
+            <Routes>
+                <Route path="/" element={<LoginPage />} />
+                <Route path="/users" element={<UsersPage />} />
+            </Routes>
+        </Router>
+    );
 }
+
 export default App;
