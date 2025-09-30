@@ -14,7 +14,7 @@ function UserTable({
     setEditedEmail,
 }) {
     return (
-        <table className="user-table">
+        <table style={{ width: '100%' }}>
             <thead>
                 <tr>
                     <th>#ID</th>

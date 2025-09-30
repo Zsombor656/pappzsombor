@@ -16,20 +16,20 @@ function UserForm({ onAddUser }) {
     };
 
     return (
-        <form onSubmit={handleSubmit} className="user-form">
-            <input
+        <form onSubmit={handleSubmit} id='addForm'>
+            <input id='nevInput'
                 type="text"
                 placeholder="Név"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
             />
-            <input
+            <input id='emailInput'
                 type="email"
                 placeholder="Email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
             />
-            <button type="submit">Hozzáadás</button>
+            <button  id='hozzaadBtn' type="submit">Hozzáadás</button>
         </form>
     );
 }

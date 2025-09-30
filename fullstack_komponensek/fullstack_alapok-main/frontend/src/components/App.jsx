@@ -3,6 +3,7 @@ import axios from 'axios';
 import '../App.css';
 import UserForm from './UserForm';
 import UserTable from './UserTable';
+import UserRow from './UserRow';
 
 function App() {
     const [users, setUsers] = useState([]);
@@ -85,5 +86,4 @@ function App() {
         </div>
     );
 }
-
 export default App;

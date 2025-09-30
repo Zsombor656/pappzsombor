@@ -12,10 +12,9 @@ function UserRow({
     setEditedEmail,
 }) {
     const isEditing = editingId === user.id;
-
     return (
         <tr>
-            <td>{user.id}</td>
+            <td class='tableCell'>{user.id}</td>
             {isEditing ? (
                 <>
                     <td>
@@ -35,12 +34,12 @@ function UserRow({
                 </>
             ) : (
                 <>
-                    <td>{user.name}</td>
-                    <td>{user.email}</td>
+                     <td class='tableCell'>{user.name}</td>
+                     <td class='tableCell'>{user.email}</td>
                 </>
             )}
-            <td>{new Date(user.created_at).toLocaleDateString()}</td>
-            <td>
+            <td class='tableCell'>{new Date(user.created_at).toLocaleDateString()}</td>
+            <td  class='tableCell'>
                 {isEditing ? (
                     <>
                         <button onClick={() => onUpdateUser(user.id, editedName, editedEmail)}>Mentés</button>
@@ -48,8 +47,8 @@ function UserRow({
                     </>
                 ) : (
                     <>
-                        <button onClick={() => onEditStart(user)}>Szerkesztés</button>
-                        <button onClick={() => onDeleteUser(user.id)}>Törlés</button>
+                        <button class='editButton' onClick={() => onEditStart(user)}>Szerkesztés</button>
+                        <button class='deleteButton' onClick={() => onDeleteUser(user.id)}>Törlés</button>
                     </>
                 )}
             </td>
