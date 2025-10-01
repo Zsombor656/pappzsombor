@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import '../App.css';
-import UserForm from './UserForm';
-import UserTable from './UserTable';
-import NavBar from './NavBar';
+import './css/App.css';
+import UserForm from './components/UserForm';
+import UserTable from './components/UserTable';
+import NavBar from './components/NavBar';
 
 function App() {
     const [users, setUsers] = useState([]);
