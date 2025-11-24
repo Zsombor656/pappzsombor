@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\papzso656\\Documents\\GitHub\\pappzsombor\\mysql_trigger\\WindowsFormsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29C94E8F-8244-49AA-86D5-29ACFF624307}|WindowsFormsApp1\\mysql_trigger.csproj|c:\\users\\papzso656\\documents\\github\\pappzsombor\\mysql_trigger\\windowsformsapp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29C94E8F-8244-49AA-86D5-29ACFF624307}|WindowsFormsApp1\\mysql_trigger.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|mysql_trigger||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29C94E8F-8244-49AA-86D5-29ACFF624307}|WindowsFormsApp1\\mysql_trigger.csproj|c:\\users\\papzso656\\documents\\github\\pappzsombor\\mysql_trigger\\windowsformsapp1\\windowsformsapp1\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|6185191f-1008-4fb2-a715-3a4e4f27e610"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mysql_trigger",
+              "DocumentMoniker": "C:\\Users\\papzso656\\Documents\\GitHub\\pappzsombor\\mysql_trigger\\WindowsFormsApp1\\WindowsFormsApp1\\mysql_trigger.csproj",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\mysql_trigger.csproj",
+              "ToolTip": "C:\\Users\\papzso656\\Documents\\GitHub\\pappzsombor\\mysql_trigger\\WindowsFormsApp1\\WindowsFormsApp1\\mysql_trigger.csproj",
+              "RelativeToolTip": "WindowsFormsApp1\\mysql_trigger.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-18T09:53:09.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\papzso656\\Documents\\GitHub\\pappzsombor\\mysql_trigger\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\papzso656\\Documents\\GitHub\\pappzsombor\\mysql_trigger\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T09:30:24.277Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

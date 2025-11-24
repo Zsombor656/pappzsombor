@@ -1,0 +1,75 @@
+.start {
+    background-image: url('');
+    background-position: center;
+   
+    min-height: 100vh;
+    
+    
+}
+.start h1{
+    color:aliceblue;
+    background-color: rgba(136, 178, 194, 0.2);
+    text-align: left;
+    padding: 10px;
+
+ 
+}
+@media (min-width: 768px) {
+    .start {
+        min-height: calc(100vh - 4rem);
+    }
+}
+
+.start .btn {
+    width: 14rem;
+}
+
+.start .row {
+    margin-top: 60vh;
+    padding: 10px;
+}
+
+@media (max-width: 575px) {
+    .start .row .col-12{
+        margin: 2vh 0;
+    }
+
+    .start .row {
+        margin-top: 35vh;
+    }
+
+    .start .row .btn {
+        min-width: 15rem;
+        font-size: 1rem;
+    }    
+}
+
+.start .row .btn {
+    min-width: calc(100% - 4rem);
+    font-size: 1.7vw;
+}
+
+.container {
+    background-color: rgb(164, 190, 219);
+    min-height: 100vh;
+}
+
+.container nav.navbar ul.navbar-nav li.nav-item a.active{
+    color: rgb(200, 200, 200);
+    
+}
+
+.card-header {
+    color: rgb(200, 200, 200);    
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card-img-bottom {
+    max-height: 40vh;
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}

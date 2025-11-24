@@ -1,0 +1,21 @@
+nev: Erisz
+Típus:Törpebolygó
+Tömeg:0,0,0027
+Egyenlitői sugara:0,228
+Holdak száma:1
+Távolság a naptól:66,17
+Távolság a földtől:65,17
+Leírás:Az Erisz a Naprendszer legnagyobb törpebolygólya.
+Kép URL:https://upload.wikimedia.org/wikipedia/commons/5/5b/Eris_and_dysnomia2.jpg
+
+nev: Pluto
+Típus:Törpebolygó
+Tömeg:0,0021
+Egyenlitői sugara:0,19
+Holdak száma:5
+Távolság a naptól:39,86
+Távolság a földtől:38,86
+Leírás:A Pluto a Naprendszer második legnagyobb törpebolygólya.
+Kép URL: https://upload.wikimedia.org/wikipedia/commons/e/ef/Pluto_in_True_Color_-_High-Res.jpg
+
+

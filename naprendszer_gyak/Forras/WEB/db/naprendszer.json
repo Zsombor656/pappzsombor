@@ -1,0 +1,24 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"naprendszer"},
+{"type":"table","name":"bolygok","database":"naprendszer","data":
+[
+{"bolygo_id":"1","neve":"Merkúr","tipus_id":"1","tomeg":"0.055","egyenlitori_sugar":"0.383","holdak_szama":"0","nap_tavolsag":"0.39","fold_tavolsag":"0.61","leiras":"A Merkúr a Naprendszernek a Naphoz legközelebb lévő bolygója.","url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/4\/4a\/Mercury_in_true_color.jpg\/600px-Mercury_in_true_color.jpg"},
+{"bolygo_id":"2","neve":"Vénusz","tipus_id":"1","tomeg":"0.815","egyenlitori_sugar":"0.949","holdak_szama":"0","nap_tavolsag":"0.72","fold_tavolsag":"0.28","leiras":"A Vénusz a Naptól számított második bolygó, a földhöz hasonló méretű.","url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/e\/e5\/Venus-real_color.jpg\/600px-Venus-real_color.jpg"},
+{"bolygo_id":"3","neve":"Föld","tipus_id":"1","tomeg":"1","egyenlitori_sugar":"1","holdak_szama":"1","nap_tavolsag":"1","fold_tavolsag":"0","leiras":"A Föld a harmadik bolygó a Naptól, és az egyetlen ismert hely, ahol élet van.","url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/c\/cb\/The_Blue_Marble_%28remastered%29.jpg\/600px-The_Blue_Marble_%28remastered%29.jpg"},
+{"bolygo_id":"4","neve":"Mars","tipus_id":"1","tomeg":"0.107","egyenlitori_sugar":"0.533","holdak_szama":"2","nap_tavolsag":"1.52","fold_tavolsag":"0.52","leiras":"A Mars a Naprendszer negyedik bolygója, a vörös bolygó néven ismert.","url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/0\/02\/OSIRIS_Mars_true_color.jpg\/600px-OSIRIS_Mars_true_color.jpg"},
+{"bolygo_id":"5","neve":"Jupiter","tipus_id":"2","tomeg":"317.899","egyenlitori_sugar":"11.209","holdak_szama":"79","nap_tavolsag":"5.2","fold_tavolsag":"4.2","leiras":"A Jupiter a Naptól számított ötödik bolygó, egy gázóriás.","url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/e\/e2\/Jupiter.jpg\/600px-Jupiter.jpg"},
+{"bolygo_id":"6","neve":"Szaturnusz","tipus_id":"2","tomeg":"95.16","egyenlitori_sugar":"9.449","holdak_szama":"82","nap_tavolsag":"9.58","fold_tavolsag":"8.58","leiras":"A Szaturnusz a hatodik bolygó a Naptól, jellegzetes gyűrűivel.","url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/c\/c7\/Saturn_during_Equinox.jpg\/600px-Saturn_during_Equinox.jpg"},
+{"bolygo_id":"7","neve":"Uránusz","tipus_id":"3","tomeg":"14.536","egyenlitori_sugar":"4.007","holdak_szama":"27","nap_tavolsag":"19.2","fold_tavolsag":"18.2","leiras":"Az Uránusz a hetedik bolygó, a Naptól számított harmadik gázóriás.","url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/3\/3d\/Uranus2.jpg\/600px-Uranus2.jpg"},
+{"bolygo_id":"8","neve":"Neptunusz","tipus_id":"3","tomeg":"17.147","egyenlitori_sugar":"3.883","holdak_szama":"14","nap_tavolsag":"30.05","fold_tavolsag":"29.05","leiras":"A Neptunusz a nyolcadik bolygó, ismert erős szelei és hideg légköre miatt.","url":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/5\/56\/Neptune_Full.jpg\/600px-Neptune_Full.jpg"}
+]
+}
+,{"type":"table","name":"bolygo_tipusok","database":"naprendszer","data":
+[
+{"tipus_id":"1","tipus_neve":"Föld-típusú"},
+{"tipus_id":"2","tipus_neve":"Gázóriás"},
+{"tipus_id":"3","tipus_neve":"Jégóriás"},
+{"tipus_id":"4","tipus_neve":"Hibrid"}
+]
+}
+]
