@@ -1,0 +1,52 @@
+C:\Users\peratt816\Desktop\MySQLSampleI\bin\Debug\MySQLSampleI.exe.config
+C:\Users\peratt816\Desktop\MySQLSampleI\bin\Debug\MySQLSampleI.exe
+C:\Users\peratt816\Desktop\MySQLSampleI\bin\Debug\MySQLSampleI.pdb
+C:\Users\peratt816\Desktop\MySQLSampleI\bin\Debug\System.Buffers.dll
+C:\Users\peratt816\Desktop\MySQLSampleI\bin\Debug\System.Memory.dll
+C:\Users\peratt816\Desktop\MySQLSampleI\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\peratt816\Desktop\MySQLSampleI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\peratt816\Desktop\MySQLSampleI\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\peratt816\Desktop\MySQLSampleI\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\peratt816\Desktop\MySQLSampleI\bin\Debug\Google.Protobuf.pdb
+C:\Users\peratt816\Desktop\MySQLSampleI\bin\Debug\Google.Protobuf.xml
+C:\Users\peratt816\Desktop\MySQLSampleI\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\peratt816\Desktop\MySQLSampleI\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\peratt816\Desktop\MySQLSampleI\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\peratt816\Desktop\MySQLSampleI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\peratt816\Desktop\MySQLSampleI\bin\Debug\MySql.Data.xml
+C:\Users\peratt816\Desktop\MySQLSampleI\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\peratt816\Desktop\MySQLSampleI\bin\Debug\System.IO.Pipelines.xml
+C:\Users\peratt816\Desktop\MySQLSampleI\obj\Debug\MySQLSampleI.csproj.AssemblyReference.cache
+C:\Users\peratt816\Desktop\MySQLSampleI\obj\Debug\MySQLSampleI.Form1.resources
+C:\Users\peratt816\Desktop\MySQLSampleI\obj\Debug\MySQLSampleI.Properties.Resources.resources
+C:\Users\peratt816\Desktop\MySQLSampleI\obj\Debug\MySQLSampleI.csproj.GenerateResource.cache
+C:\Users\peratt816\Desktop\MySQLSampleI\obj\Debug\MySQLSampleI.csproj.CoreCompileInputs.cache
+C:\Users\peratt816\Desktop\MySQLSampleI\obj\Debug\MySQLSam.D7358F08.Up2Date
+C:\Users\peratt816\Desktop\MySQLSampleI\obj\Debug\MySQLSampleI.exe
+C:\Users\peratt816\Desktop\MySQLSampleI\obj\Debug\MySQLSampleI.pdb
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\bin\Debug\MySQLSampleI.exe.config
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\bin\Debug\MySQLSampleI.exe
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\bin\Debug\MySQLSampleI.pdb
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\bin\Debug\System.Buffers.dll
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\bin\Debug\System.Memory.dll
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\bin\Debug\Google.Protobuf.pdb
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\bin\Debug\Google.Protobuf.xml
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\bin\Debug\MySql.Data.xml
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\bin\Debug\System.IO.Pipelines.xml
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\obj\Debug\MySQLSampleI.csproj.AssemblyReference.cache
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\obj\Debug\MySQLSampleI.Form1.resources
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\obj\Debug\MySQLSampleI.Properties.Resources.resources
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\obj\Debug\MySQLSampleI.csproj.GenerateResource.cache
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\obj\Debug\MySQLSampleI.csproj.CoreCompileInputs.cache
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\obj\Debug\MySQLSam.D7358F08.Up2Date
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\obj\Debug\MySQLSampleI.exe
+C:\Users\papzso656\Downloads\MySQLSampleI 1 2\MySQLSampleI\obj\Debug\MySQLSampleI.pdb
